@@ -10,6 +10,17 @@ import audax from "../../assets/partners/logo-audax.png";
 import iveco from "../../assets/partners/logo-iveco.png";
 import oliva from "../../assets/partners/logo-oliva.png";
 
+//clients logo imports
+import seduc from "../../assets/clients/seduc.webp";
+import inventus from "../../assets/clients/inventus.webp";
+import petrobras from "../../assets/clients/petrobras.webp";
+import policiafederal from "../../assets/clients/policia-federal.webp";
+import uea from "../../assets/clients/uea.webp";
+import ministeriojustica from "../../assets/clients/ministerio-da-justica.webp";
+import ministerioeducacao from "../../assets/clients/ministerio-da-educacao.webp";
+import ifam from "../../assets/clients/ifam.webp";
+import ufam from "../../assets/clients/ufam.webp";
+
 const Partners = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -51,23 +62,39 @@ const Partners = () => {
   const testimonialData = [
     {
       id: 1,
-      img: dunorte,
+      img: seduc,
     },
     {
       id: 2,
-      img: amazonasfc,
+      img: uea,
     },
     {
       id: 3,
-      img: audax,
+      img: petrobras,
     },
     {
       id: 4,
-      img: iveco,
+      img: inventus,
     },
     {
       id: 5,
-      img: oliva,
+      img: policiafederal,
+    },
+    {
+      id: 6,
+      img: ministerioeducacao,
+    },
+    {
+      id: 7,
+      img: ministeriojustica,
+    },
+    {
+      id: 8,
+      img: ifam,
+    },
+    {
+      id: 9,
+      img: ufam,
     },
   ];
 
@@ -76,7 +103,7 @@ const Partners = () => {
       <div className="p-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
-            <h1 className="text-3xl font-bold">Nossos Parceiros</h1>
+            <h1 className="text-3xl font-bold">Nossos Principais Clientes</h1>
           </div>
           {/* testimonial section */}
           <div className="grid grid-cols-1 max-w-[600px] mx-auto gap-6">
